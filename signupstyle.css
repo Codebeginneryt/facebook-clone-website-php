@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	display: inline-flex;
+	background: #166FE5;
+}
+.navbar .logo{
+	width: 40%;
+	margin:20px 60px;
+}
+.navbar .logo h1{
+	font-size: 40px;
+	color: #fff;
+}
+.navbar .login{
+	width: 60%;
+	margin: 25px 700px; 
+}
+.navbar .login button{
+	width: 200px;
+	height: 30px;
+	background: #166FE5;
+	border:1px solid rgba(0,0,200,0.7);
+	box-shadow:3px 5px 8px -5px rgba(0,0,0,0.7);
+
+}
+.navbar .login button a{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+}
+.main{
+	height: 87vh;
+	width: 100%;
+	background: rgba(0,0,0,0.05);
+}
+.main .form-box{
+	width: 360px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.main .form-box input[type=text]{
+	width: 160px;
+	height: 30px;
+	margin-top: 10px;
+	padding-left: 5px;
+	outline: none;
+	border: 1px solid lightgrey;
+}
+.main .form-box input[type=password]{
+	width: 325px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	outline: none;
+	border: 1px solid lightgrey;
+
+}
+.main .form-box input[type=email]{
+	width: 325px;
+	height: 30px;
+	margin-top: 10px;
+	padding-left: 5px;
+	outline: none;
+	border: 1px solid lightgrey;
+
+}
+.main .form-box input[type=date]{
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	outline: none;
+	border: 1px solid lightgrey;
+}
+.main .form-box button{
+	width: 180px;
+	height: 35px;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+	font-size: 18px;
+	background: #41b22a;
+	border: none;
+	border-radius: 5px;
+}
+.main .form-box .gender{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main .form-box .gender input{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.main .form-box p span{
+	color:rgba(0,0,0,0.5);
+}
+.main .form-box p a{
+	text-decoration: none;
+	color: #166FE5; 
+}

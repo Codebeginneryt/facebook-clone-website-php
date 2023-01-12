@@ -1,0 +1,354 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+.navbar{
+	background: white;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 50px;
+	display: inline-flex;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0,0.5);
+}
+.navbar .logo{
+	width: 5%;
+	height: 50px;
+	margin-left: 10px;
+}
+.navbar .logo i{
+	margin: 0px 4px;
+	font-size: 40px;
+	color: #166FE5;
+}
+.navbar .search-bar{
+	width: 20%;
+	height: 50px;
+	margin-left: 10px;
+}
+.navbar .search-bar input{
+	margin: 0px 3px;
+	width: 250px;
+	height: 35px;
+	padding-left: 20px;
+	border-radius:80px;
+	outline: none;
+	border:none;
+	background: rgba(0,0,0,0.05);
+	font-size: 16px;
+}
+.navbar .items{
+	width: 40%;
+	height: 50px;
+	margin-left: 50px;
+	padding-left: 40px;
+}
+.navbar .items i{
+	font-size: 22px;
+	margin-left: 45px;
+	margin-top: 10px;
+	color:rgba(0, 0, 0, 0.7);
+	padding-bottom: 8px;
+}
+.navbar .items i:hover{
+	color:#166FE5;
+	border-bottom: 2px solid #166FE5;
+}
+.navbar .account{
+	width: 25%;
+	height: 50px;
+	margin-left: 60px;
+	display: inline-flex;
+}
+.navbar .account img{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.navbar .account p{
+	font-size: 16px;
+	margin: 12px 10px;
+}
+.navbar .account i{
+	color: black;
+	background: rgba(0, 0, 0, 0.05);
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	margin-left: 10px;
+	margin-top: 5px;
+	transition: 0.3s;
+}
+.navbar .account i:hover{
+	background:#166FE5;
+	color: white;
+}
+.main{
+	width: 100%;
+	display: inline-flex;
+	background: rgba(0, 0, 0,0.05);
+}
+.main .left-box{
+	position: fixed;
+	height: 91vh;
+	width: 25%;
+	display:grid;
+}
+.main .left-box .list{
+	display: inline-flex;
+}
+.main .left-box .list:hover{
+	background: rgba(0,0,0,0.07);
+	border-radius: 15px;
+}
+.main .left-box .list img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.main .left-box .list a{
+	text-decoration: none;
+	color: black;
+	margin: 15px 10px 0px 10px;
+}
+.main .left-box .list p{
+	margin-top: 10px;
+}
+.main .middle-box{
+	width: 45%;
+	margin-left: 28%;
+}
+.main .middle-box .user-text{
+	display: inline-flex;
+	width: 100%;
+}
+.main .middle-box .user-text img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin: 20px;
+}
+.main .middle-box .user-text input{
+	width: 500px;
+	height: 50px;
+	margin: 20px 20px 20px 0px;
+	padding-left: 20px;
+	border: none;
+	outline: none;
+	background: rgba(0,0,0,0.05);
+	font-size: 18px;
+	font-weight: normal;
+	color: grey;
+	border-radius: 20px;
+}
+.main .right-box{
+	height: 91vh;
+	width: 25%;
+	margin-left: 30px;
+	position: fixed;
+	left: 73%;
+}
+.main .right-box .sponserd{
+	margin: 10px 10px 5px 10px;
+}
+.main .right-box .sponserd .banner{
+	display:inline-flex;
+	padding: 10px 10px 5px 10px;
+	border-radius: 10px;
+}
+.main .right-box .sponserd .banner:hover{
+	background: rgb(0,0,0,0.07);
+}
+.main .right-box .sponserd .banner img{
+	height: 80px;
+	width: 150px;
+}
+.main .right-box .sponserd .banner a{
+	text-decoration:none;
+	margin-left: 5px;
+	color: black;
+}
+.main .right-box .sponserd h1{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.main .right-box .contact{
+	margin: 10px;
+}
+.main .right-box .contact h1{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.main .right-box  .contact .list{
+	width: 100%;
+	display: inline-flex;
+}
+.main .right-box  .contact .list:hover{
+	background: rgb(0,0,0,0.07);
+	border-radius: 10px;
+}
+.main .right-box .contact .list img{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+}
+.main .right-box .contact .list a{
+	text-decoration: none;
+	color: black;
+	margin: 5px 5px 0px 10px;
+}
+.main .right-box .contact .list p{
+	margin-top: 5px;
+}
+
+.main .middle-box .story{
+	height: 25vh;
+	width: 100%;
+	display: inline-flex;
+	margin-top: 20px;
+}
+.main .middle-box .story .story-box{
+	height: 160px;
+	width: 120px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px -4px rgba(0,0,0,0.5);
+}
+.main .middle-box .story .story-box .image img{
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.main .middle-box .story .story-box .text i{
+	padding: 5px;
+	background:#166FE5;
+	color: white;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+.main .middle-box .story .story-box .text{
+	display: grid;
+	text-align: center;
+}
+.main .middle-box .story .story-box .text a{
+	text-decoration: none;
+	color: black;
+}
+.main .middle-box .upload{
+	height: 26vh;
+	width: 100%;
+	border-radius: 15px;
+	background: white;
+	margin-top: 20px;
+	box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.6);
+}
+.main .middle-box .upload .item{
+	margin: 10px 30px 30px 100px;
+}
+.main .middle-box .upload .item a{
+	text-decoration: none;
+	color: grey;
+	font-size: 20px;
+}
+.main .middle-box .upload .item a:hover{
+	color: black;
+}
+.main .middle-box .post{
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.6);
+}
+.main .middle-box .post .post-user{
+	display: inline-flex;
+	margin: 20px;
+}
+.main .middle-box .post .post-user a{
+	text-decoration: none;
+	color: black;
+}
+.main .middle-box .post .post-user p{
+	margin: 6px 6px 6px 10px;
+}
+.main .middle-box .post .post-user img{
+	height:40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 2px solid rgba(0,0,0,0.4);
+	padding: 2px;
+}
+.main .middle-box .post .post-photo{
+	height: 80%;
+	width: 100%;
+}
+.main .middle-box .post .post-photo img{
+	height: 100%;
+	width: 100%;
+}
+.main .middle-box .post .like{
+	padding: 20px;
+	margin-left: 60px;
+}
+.main .middle-box .post .like a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.main .middle-box .post .like i{
+	font-size: 24px;
+}
+#showaccount{
+	display: none;
+	height: 420px;
+	width: 330px;
+	box-shadow: -5px 5px 10px -5px rgba(0,0,0,0.6);
+	position: absolute;
+	left: 73%;
+	top: 8.5%;
+	background: white;
+	border-radius: 0 0 10px 10px;
+}
+.account-box .some{
+	margin: 14px 14px 0 14px;
+	display: inline-flex;
+	width: 90%;
+	padding: 10px 0px 0px 10px;
+}
+.account-box .some:hover{
+	background: rgba(0,0,0,0.07);
+	border-radius: 10px;
+}
+.account-box .some img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.account-box .some p{
+	font-size: 16px;
+	margin-left: 10px;
+}
+.account-box .some span{
+	font-size: 12px;
+	color: grey;
+}
+.account-box .some a{
+	text-decoration: none;
+	color: black;
+	margin-left: 5px;
+}
+.account-box .some i{
+	background: rgba(0,0,0,0.05);
+	padding:10px;
+	border-radius: 50%;
+}
